@@ -102,9 +102,9 @@ public class TeacherDetails extends JFrame implements ActionListener{
           } else if (ae.getSource() == add){
               setVisible(false);
               new AddTeacher();
-//          } else if (ae.getSource() == update){
-//              setVisible(false);
-//              new UpdateStudent();
+          } else if (ae.getSource() == update){
+              setVisible(false);
+              new UpdateStudent();
             } else{
               setVisible(false);
           }
