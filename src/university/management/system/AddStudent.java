@@ -335,8 +335,8 @@ public class AddStudent extends javax.swing.JFrame {
             String name = tf1.getText();
             String rollno =tf2.getText();
             String address =tf3.getText();
-            String classxii=tf4.getText();
-            String email = tf5.getText();
+            String email=tf4.getText();
+            String classxii= tf5.getText();
             String course = cb1.getSelectedItem().toString();
             
             String fname = tf6.getText();
